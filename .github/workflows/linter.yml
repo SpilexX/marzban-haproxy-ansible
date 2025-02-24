@@ -5,6 +5,7 @@ name: linter code
   push:
     branches:
       - main
+      - dev
 
 defaults:
   run:
