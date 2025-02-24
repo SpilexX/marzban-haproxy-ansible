@@ -14,8 +14,8 @@ defaults:
 jobs:
 
   lint:
-    name: Lint
-    runs-on: ubuntu-20.04
+    name: Lint code
+    runs-on: ubuntu-24.04
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v4
